@@ -8,6 +8,9 @@
 $(function() {
     //console.log("Initiated the charts");
 
+    $('#start-time-picker').datetimepicker();
+    $('#end-time-picker').datetimepicker();
+
     Highcharts.setOptions({
         lang:{
             loading: "Please select a cache name."

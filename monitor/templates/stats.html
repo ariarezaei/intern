@@ -49,16 +49,16 @@
                                         <option>{{ cache }}</option>
                                     {% endfor %}
                                 </select>
-                                <div class='input-group date' id='datetimepicker1'>
+                                <div class='input-group date' id='start-time-picker'>
                                     <label for="starting-date">From<span class="text-danger"> *</span></label>
-                                    <input type='text' class="form-control" id="starting-date"/>
+                                    <input type='text' class="form-control cache-selector" id="starting-date"/>
                                     <span class="input-group-addon">
                                         <span class="glyphicon glyphicon-calendar"></span>
                                     </span>
                                 </div>
-                                <div class='input-group date' id='datetimepicker1'>
-                                    <label for="starting-date">To<span class="text-danger"> *</span></label>
-                                    <input type='text' class="form-control" id="starting-date"/>
+                                <div class='input-group date' id='end-time-picker'>
+                                    <label for="ending-date">To<span class="text-danger"> *</span></label>
+                                    <input type='text' class="form-control cache-selector" id="ending-date"/>
                                     <span class="input-group-addon">
                                         <span class="glyphicon glyphicon-calendar"></span>
                                     </span>
@@ -66,39 +66,6 @@
                             </div>
                         </form>
                     </div>
-
-                    <table class="table table-hover">
-                        <tbody>
-                            <tr class="active">
-                                <th>Main Disk Name</th>
-                                <th id="main_disk_name">-</th>
-                            </tr>
-                            <tr>
-                                <th>Main Disk Size</th>
-                                <td id="main_disk_size">-</td>
-                            </tr>
-                            <tr class="active">
-                                <th>Cache Disk Name</th>
-                                <th id="cache_disk_name">-</th>
-                            </tr>
-                            <tr>
-                                <th>Cache State</th>
-                                <th id="cache_state">-</th>
-                            </tr>
-                            <tr>
-                                <th>Cache Type</th>
-                                <td id="cache_type">-</td>
-                            </tr>
-                            <tr>
-                                <th>Cache Size</th>
-                                <td id="cache_size">-</td>
-                            </tr>
-                            <tr>
-                                <th>Block Size</th>
-                                <td id="block_size">-</td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </div>
             </div>
         </div>
