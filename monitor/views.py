@@ -78,7 +78,7 @@ def styled_state(state):
 # Returns a list of caches
 def cache_list():
     call("./caches.sh")
-    f = open(caches.txt, 'r')
+    f = open('caches.txt', 'r')
     c=[]
     for line in f:
         c.append(line.rstrip("\n"))
