@@ -189,3 +189,14 @@ function init(num)
         chart.redraw();
     }
 }
+
+function send_info()
+{
+    var cache_name = $('#cache-name').val();
+    var start_date = $('#starting-date').val();
+    var end_date   = $('#ending-date').val();
+
+    console.log(end_date);
+    console.log(start_date);
+    console.log(cache_name);
+}
