@@ -200,3 +200,8 @@ function send_info()
     console.log(start_date);
     console.log(cache_name);
 }
+
+function clear_fields()
+{
+    // TODO: clear menu fields
+}
